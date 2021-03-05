@@ -19,7 +19,6 @@ public class IOChamber {
             outputFromConsole();
         }
         printOddRows();
-
     }
 
     private static void outputFromFile(String fileName) {
@@ -35,7 +34,6 @@ public class IOChamber {
     }
 
     private static void outputFromConsole() {
-
         scanner = new Scanner(System.in);
         String currentLine;
         while (!(currentLine = scanner.nextLine()).equals("")) {
